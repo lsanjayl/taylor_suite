@@ -504,7 +504,7 @@
             line-height: 1.6;
         }
     </style>
-    <link rel="stylesheet" id="contact-form-7-css" href="../wp-content/plugins/contact-form-7/includes/css/styles77e1.css?ver=5.6.4" type="text/css" media="all" />
+    <link rel="stylesheet" id="contact--7-css" href="../wp-content/plugins/contact-form-7/includes/css/styles77e1.css?ver=5.6.4" type="text/css" media="all" />
     <link rel="stylesheet" id="ctf_styles-css" href="../wp-content/plugins/custom-twitter-feeds/css/ctf-styles.minb95e.css?ver=2.0.3" type="text/css" media="all" />
     <link rel="stylesheet" id="rabbit_css-css" href="https://export.qodethemes.com/_toolbar/assets/css/rbt-modules.css?ver=6.1.1" type="text/css" media="all" />
     <style id="woocommerce-inline-inline-css" type="text/css">
@@ -2138,7 +2138,7 @@ Ready to wear
                                                 <ul></ul>
                                             </div>
                                             <form name="contact" method="POST" data-netlify="true" data-status="init" style="margin-top: 30%;">
-                                                <div style="display: none;">
+<!--                                                 <div style="display: none;">
                                                     <input type="hidden" name="_wpcf7" value="511" />
                                                     <input type="hidden" name="_wpcf7_version" value="5.6.4" />
                                                     <input type="hidden" name="_wpcf7_locale" value="en_US" />
@@ -2165,8 +2165,28 @@ Ready to wear
                                                     <div class="qodef-submit">
                                                         <button style="color: #ffffff;" type="submit"><span class="qodef-m-text">Book Your Appointment</span></button>
                                                     </div>
-                                                </div>
-                                                <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                                </div> 
+                                                <div class="wpcf7-response-output" aria-hidden="true"></div> -->
+                                                
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+
                                             </form>
                                         </div>
                                     </div>

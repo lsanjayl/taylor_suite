@@ -91,6 +91,41 @@
     <link rel='stylesheet' id='linea-icons-css' href='../../wp-content/plugins/everfondly-core/inc/icons/linea-icons/assets/css/linea-icons.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
     <link rel='stylesheet' id='linear-icons-css' href='../../wp-content/plugins/everfondly-core/inc/icons/linear-icons/assets/css/linear-icons.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
     <style id="material-icons-css" media="all">
+       @media only screen and (min-width: 600px) {
+      .titlehead{
+      font-size: 100px;
+    }
+}
+
+    @media only screen and (max-width: 600px) {
+  .bigcont {
+    flex-direction: column;
+  }
+  .titlehead{
+    font-size: 40px;
+  }
+}
+    .bigcont{
+      background-color: rgb(7, 9, 74);
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 5em;
+      padding:5em 0em;
+    }
+    .bigcont .contwrap h3{
+      color: white;
+      text-align: center;
+    }
+    .bigcont a{
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      background-color: rgb(140, 43, 43);
+      padding:1.5em 2.5em;
+      
+    }
         @font-face {
             font-family: 'Material Icons';
             font-style: normal;
@@ -113,6 +148,7 @@
             direction: ltr;
         }
     </style>
+    
     <link rel='stylesheet' id='simple-line-icons-css' href='../../wp-content/plugins/everfondly-core/inc/icons/simple-line-icons/assets/css/simple-line-icons.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
     <link rel='stylesheet' id='wp-block-library-css' href='../../wp-includes/css/dist/block-library/style.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
     <link rel='stylesheet' id='wc-blocks-vendors-style-css' href='../../wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style2ff6.css?ver=8.5.1' type='text/css' media='all' />
@@ -449,6 +485,16 @@
         .wp-block-pullquote {
             font-size: 1.5em;
             line-height: 1.6;
+        }
+        .cont{
+            margin-bottom: 2em;
+        }
+        .cont .title{
+          font-size: 100px;
+          margin:0.5em 0em;
+        }
+        .cont p{
+          font-size: large;
         }
     </style>
     <link rel='stylesheet' id='contact-form-7-css' href='../../wp-content/plugins/contact-form-7/includes/css/styles77e1.css?ver=5.6.4' type='text/css' media='all' />
@@ -1375,32 +1421,23 @@ Find your dress for -40-70% sale on our White Friday Sample Sale // November 29t
             </nav>
           </header>
         <div id="qodef-page-outer">
-            <div class="qodef-page-title qodef-m qodef-title--breadcrumbs qodef-alignment--left qodef-vertical-alignment--header-bottom">
-                <div class="qodef-m-inner">
-                    <div class="qodef-m-content qodef-content-grid ">
-                        <span class="qodef-breadcrumbs-mark">
-<svg width="36" height="97" viewBox="0 0 36 64">
-<!-- <text transform="translate(0 74)" fill="#061C42" font-size="80" font-family="CormorantUpright-Light, Cormorant Upright" font-weight="300" letter-spacing="-0.04em">
-<tspan x="0" y="0">*</tspan>
-</text> -->
-</svg>
-</span>
-                        <!-- <div itemprop="breadcrumb" class="qodef-breadcrumbs"><a itemprop="url" class="qodef-breadcrumbs-link" href="../../index.html"><span itemprop="title">Home</span></a><span class="qodef-breadcrumbs-separator"></span>
-                            <a itemprop="url" class="qodef-breadcrumbs-link" href="../../portfolio-category/planner/index.html"><span itemprop="title">Planner</span></a><span class="qodef-breadcrumbs-separator"></span><a itemprop="url" class="qodef-breadcrumbs-link"
-                                href="../../portfolio-category/photography/index.html"><span itemprop="title">Photography</span></a>
-                            <span class="qodef-breadcrumbs-separator"></span><span itemprop="title" class="qodef-breadcrumbs-current">Wedding Dress</span></div> -->
-                    </div>
-                </div>
-            </div>
+   
             <div id="qodef-page-inner" class="qodef-content-grid">
+              <div class="cont">
+                <h1 class="titlehead">CRAFTMANSHIP</h1>
+                <p> Every stitch, every seam, every button is perfectly executed. Customers are offered samples of master garments in different styles and fit, which can be totally customized: the choice of lining, fabric, buttons,. The result is a one of a kind piece brainstormed by the customer and its personal Master Tailor.
+                  <br>
+                  Our bespoke suits and tailored pieces reflect generations of knowledge passed down from master cutters and skilled artisans. They honor traditions while embracing modern sensibilities. They inspire confidence through their rich, classic design and impeccable fit. If you seek menswear that exhibits the pinnacle of CRAFTSMANSHIP through its cut, fabrics and finish, look no further. We invite you to experience the difference that over a decades of expertise, the finest materials and unmatched passion for our craft can make.
+                  </p>
+              </div>
                 <main id="qodef-page-content" class="qodef-grid qodef-layout--template " role="main">
                     <div class="qodef-grid-inner clear">
                         <div class="qodef-grid-item qodef-page-content-section qodef-col--12">
                             <div class="qodef-portfolio qodef-m qodef-portfolio-single qodef-layout--images-big">
                                 <article class="qodef-portfolio-single-item qodef-variations--big qodef-e post-2691 portfolio-item type-portfolio-item status-publish has-post-thumbnail hentry portfolio-category-photography">
                                     <div class="qodef-e-inner">
-                                        <div class="qodef-e-content qodef-grid qodef-layout--template ">
-                                            <div class="qodef-grid-inner clear">
+                                        <!--<div class="qodef-e-content qodef-grid qodef-layout--template ">
+                                             <div class="qodef-grid-inner clear">
                                                 <div class="qodef-grid-item qodef-col--9">
                                                     <h1 itemprop="name" class="qodef-e-title entry-title qodef-portfolio-title">Wedding Dress</h1>
                                                     <div class="qodef-e qodef-portfolio-content">
@@ -1409,8 +1446,8 @@ Find your dress for -40-70% sale on our White Friday Sample Sale // November 29t
                                                     </div>
                                                 </div>
                                                 
-                                            </div>
-                                        </div>
+                                            </div> 
+                                        </div>-->
                                         <div class="qodef-media">
                                             <div class="qodef-e qodef-magnific-popup qodef-popup-gallery">
                                                 <a itemprop="image" class="qodef-popup-item qodef-grid-item" href="../../wp-content/uploads/2021/10/port-big-img1.jpg" data-type="image" title="port-big-img1">
@@ -1435,6 +1472,12 @@ Find your dress for -40-70% sale on our White Friday Sample Sale // November 29t
                     </div>
                 </main>
             </div>
+        </div>
+        <div class="bigcont">
+          <div class="contwrap">
+            <h3>Visit our store<br>To view more</h3>
+          </div>
+          <a href="./appointments/index.html">Book an appointment</a>
         </div>
         <footer id="qodef-page-footer" class="qodef-columns-gutter-adj" role="contentinfo">
             <div id="qodef-page-footer-top-area">

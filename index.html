@@ -18,6 +18,7 @@
     var gtm4wp_datalayer_name = "dataLayer";
     var dataLayer = dataLayer || [];
   </script>
+  <link href="./style-index.css" rel="stylesheet" type="text/css">
   <link rel="dns-prefetch" href="http://export.qodethemes.com/" />
   <link rel="dns-prefetch" href="http://static.zdassets.com/" />
   <link rel="dns-prefetch" href="http://fonts.googleapis.com/" />
@@ -168,6 +169,13 @@
       vertical-align: -0.1em !important;
       background: none !important;
       padding: 0 !important;
+    }
+    .footer-navbar{
+      display:flex;
+      flex-direction: column;
+    }
+    .footer-navbar a{
+      margin:0.5em;
     }
   </style>
   <link rel="stylesheet" id="sbi_styles-css"
@@ -2469,7 +2477,7 @@
                           <div class="elementor-widget-container">
                             <a class="qodef-shortcode qodef-m qodef-button qodef-layout--textual qodef-html--link"
                               href="appointments/index.html" target="_self">
-                              <span class="qodef-m-text">Request an Appointment</span>
+                              <span class="qodef-m-text">Enquire now</span>
                             </a>
                           </div>
                         </div>
@@ -2590,27 +2598,41 @@
                           class="elementor-element elementor-element-dab8b42 elementor-widget elementor-widget-everfondly_core_image_gallery"
                           data-id="dab8b42" data-element_type="widget"
                           data-widget_type="everfondly_core_image_gallery.default">
-                          <div class="carousel rounded-box">
+                          <div class="carousel carousel-end rounded-box" style="margin:2em 0em;">
                             <div class="carousel-item">
-                              <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Burger" />
+                              <video autoplay playsinline muted loop class="n-video"  >
+                                <source src="../../reel.mp4">
+                                </video>
+                            </div> 
+                            <div class="carousel-item" >
+                              <video autoplay playsinline muted loop class="n-video">
+                                <source src="../../reel2.mp4">
+                                </video>
                             </div> 
                             <div class="carousel-item">
-                              <img src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" alt="Burger" />
+                              <video autoplay playsinline muted loop class="n-video">
+                                <source src="../../reel3.mp4">
+                                </video>
                             </div> 
                             <div class="carousel-item">
-                              <img src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" alt="Burger" />
+                              <video autoplay playsinline muted loop class="n-video">
+                                <source src="../../reel4.mp4">
+                                </video>
                             </div> 
                             <div class="carousel-item">
-                              <img src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" alt="Burger" />
+                              <video autoplay playsinline muted loop class="n-video">
+                                <source src="../../reel5.mp4">
+                                </video>
                             </div> 
                             <div class="carousel-item">
-                              <img src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" alt="Burger" />
+                              <video autoplay playsinline muted loop class="n-video">
+                                <source src="../../reel6.mp4">
+                                </video>
                             </div> 
                             <div class="carousel-item">
-                              <img src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" alt="Burger" />
-                            </div> 
-                            <div class="carousel-item">
-                              <img src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" alt="Burger" />
+                              <video autoplay playsinline muted loop class="n-video">
+                                <source src="../../reel.mp4">
+                                </video>
                             </div>
                           </div>
                         </div>
@@ -2752,8 +2774,8 @@
                           data-widget_type="everfondly_core_button.default">
                           <div class="elementor-widget-container">
                             <a class="qodef-shortcode qodef-m qodef-button qodef-layout--textual qodef-html--link"
-                              href="" target="_self">
-                              <span class="qodef-m-text">Discover Brand New Collection</span>
+                              href="/spring-wedding/index.html" target="_self">
+                              <span class="qodef-m-text">Discover our exclusive fabrics</span>
                             </a>
                           </div>
                         </div>
@@ -2780,9 +2802,7 @@
                               <div class="qodef-m-top-info">
                                 <p class="qodef-m-title">
                                   <span class="qodef-m-title-inner">
-                                    <span class="qodef-m-icon-wrapper">
-                                      *
-                                    </span>
+                                    
                                     <span class="qodef-m-title-text">
                                       Styles
                                     </span>
@@ -3086,7 +3106,7 @@
                 </section> -->
                 <section
                   class="elementor-section elementor-top-section elementor-element elementor-element-df42581 elementor-section-full_width qodef-elementor-content-grid elementor-section-height-default elementor-section-height-default qodef-elementor-back-btn-skin-default"
-                  data-id="df42581" data-element_type="section">
+                  data-id="df42581" data-element_type="section" style="padding-top: 80px;">
                   <div class="elementor-container elementor-column-gap-no">
                     <div
                       class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7671735"
@@ -3101,14 +3121,11 @@
                               class="qodef-shortcode qodef-m qodef-clients-list qodef-grid qodef-layout--columns qodef-gutter--normal qodef-col-num--5 qodef-item-layout--image-only qodef-responsive--custom qodef-col-num--1440--5 qodef-col-num--1366--5 qodef-col-num--1024--2 qodef-col-num--768--2 qodef-col-num--680--1 qodef-col-num--480--1 qodef-hover-animation--underline">
                               <div class="qodef-m-top-info">
                                 <p class="qodef-m-title">
-                                  <span class="qodef-m-title-inner">
-                                    <span class="qodef-m-icon-wrapper">
-                                      *
-                                    </span>
+                                  
                                     <span class="qodef-m-title-text">
                                       Brands we work with
                                     </span>
-                                  </span>
+                               
                                 </p>
                               </div>
                               <div class="qodef-grid-inner clear">
@@ -3117,7 +3134,7 @@
                                     <span class="qodef-e-image">
                                       <p itemprop="url" href="#" target="_blank">
                                         <span class="qodef-e-logo">
-                                          <img width="67" height="154" src="wp-content/uploads/2021/10/client-1.png"
+                                          <img width="163" height="454" src="wp-content/uploads/2021/10/1.png"
                                             class="attachment-full size-full" alt="m" decoding="async" loading="lazy" />
                                         </span>
                                       </p>
@@ -3129,7 +3146,7 @@
                                     <span class="qodef-e-image">
                                       <p itemprop="url" href="#" target="_blank">
                                         <span class="qodef-e-logo">
-                                          <img width="125" height="154" src="wp-content/uploads/2021/10/client-2.png"
+                                          <img width="163" height="154" src="wp-content/uploads/2021/10/2.png"
                                             class="attachment-full size-full" alt="b" decoding="async" loading="lazy" />
                                         </span>
                                       </p>
@@ -3141,7 +3158,7 @@
                                     <span class="qodef-e-image">
                                       <p itemprop="url" href="#" target="_blank">
                                         <span class="qodef-e-logo">
-                                          <img width="209" height="154" src="wp-content/uploads/2021/10/client-3.png"
+                                          <img width="163" height="154" src="wp-content/uploads/2021/10/3.png"
                                             class="attachment-full size-full" alt="m" decoding="async" loading="lazy" />
                                         </span>
                                       </p>
@@ -3153,7 +3170,7 @@
                                     <span class="qodef-e-image">
                                       <p itemprop="url" href="#" target="_blank">
                                         <span class="qodef-e-logo">
-                                          <img width="101" height="154" src="wp-content/uploads/2021/10/client-4.png"
+                                          <img width="163" height="154" src="wp-content/uploads/2021/10/4.png"
                                             class="attachment-full size-full" alt="m" decoding="async" loading="lazy" />
                                         </span>
                                       </p>
@@ -3172,66 +3189,7 @@
                                     </span>
                                   </span>
                                 </span>
-                                <span class="qodef-e qodef-grid-item">
-                                  <span class="qodef-e-inner">
-                                    <span class="qodef-e-image">
-                                      <p itemprop="url" href="#" target="_blank">
-                                        <span class="qodef-e-logo">
-                                          <img width="108" height="154" src="wp-content/uploads/2021/10/client-6.png"
-                                            class="attachment-full size-full" alt="m" decoding="async" loading="lazy" />
-                                        </span>
-                                      </p>
-                                    </span>
-                                  </span>
-                                </span>
-                                <span class="qodef-e qodef-grid-item">
-                                  <span class="qodef-e-inner">
-                                    <span class="qodef-e-image">
-                                      <p itemprop="url" href="#" target="_blank">
-                                        <span class="qodef-e-logo">
-                                          <img width="143" height="154" src="wp-content/uploads/2021/10/client-7.png"
-                                            class="attachment-full size-full" alt="m" decoding="async" loading="lazy" />
-                                        </span>
-                                      </p>
-                                    </span>
-                                  </span>
-                                </span>
-                                <span class="qodef-e qodef-grid-item">
-                                  <span class="qodef-e-inner">
-                                    <span class="qodef-e-image">
-                                      <p itemprop="url" href="#" target="_blank">
-                                        <span class="qodef-e-logo">
-                                          <img width="114" height="154" src="wp-content/uploads/2021/10/client-8.png"
-                                            class="attachment-full size-full" alt="m" decoding="async" loading="lazy" />
-                                        </span>
-                                      </p>
-                                    </span>
-                                  </span>
-                                </span>
-                                <span class="qodef-e qodef-grid-item">
-                                  <span class="qodef-e-inner">
-                                    <span class="qodef-e-image">
-                                      <p itemprop="url" href="#" target="_blank">
-                                        <span class="qodef-e-logo">
-                                          <img width="92" height="154" src="wp-content/uploads/2021/10/client-9.png"
-                                            class="attachment-full size-full" alt="m" decoding="async" loading="lazy" />
-                                        </span>
-                                      </p>
-                                    </span>
-                                  </span>
-                                </span>
-                                <span class="qodef-e qodef-grid-item">
-                                  <span class="qodef-e-inner">
-                                    <span class="qodef-e-image">
-                                      <p itemprop="url" href="#" target="_blank">
-                                        <span class="qodef-e-logo">
-                                          <img width="110" height="154" src="wp-content/uploads/2021/10/client-10.png"
-                                            class="attachment-full size-full" alt="m" decoding="async" loading="lazy" />
-                                        </span>
-                                      </p>
-                                    </span>
-                                  </span>
-                                </span>
+                                
                               </div>
                             </div>
                           </div>
@@ -3342,12 +3300,6 @@
                     </div>
                   </div>
                 </section> -->
-                <div class="bigcont">
-                  <div class="contwrap">
-                    <h3>Visit our store<br>To view more</h3>
-                  </div>
-                  <a href="./appointments/index.html">Book an appointment</a>
-                </div>
                 <section
                   class="elementor-section elementor-top-section elementor-element elementor-element-d2be222 elementor-section-full_width qodef-elementor-content-grid elementor-section-height-default elementor-section-height-default qodef-elementor-back-btn-skin-default"
                   data-id="d2be222" data-element_type="section">
@@ -3363,23 +3315,33 @@
                           <div class="elementor-widget-container">
                             <div
                               class="qodef-shortcode qodef-m qodef-instagram-list qodef-layout--columns-with-title qodef-layout--columns qodef--no-bottom-space qodef-gutter--small qodef-col-num--2 qodef--has-appear qodef--splitting">
-                              <div class="qodef-title-content-holder" style="display: flex;width: 50em;height:100%;">
+                              <div class="qodef-title-content-holder first-cont">
                                 <div style="padding:2em;">
                                 <h1 class="qodef-m-title" data-splitting>
-                                  find us on our social media
+                                  Enquire Now To Learn More
                                 </h1>
-                                <p class="qodef-hashtag-link" itemprop="url"
-                                  href="https://www.instagram.com/wedding_bels_/" target="blank">
-                                  <svg class="qodef-svg--hashtag qodef-hashtag-mark" xmlns="http://www.w3.org/2000/svg"
-                                    width="32.8" height="45.2" viewBox="0 0 32.8 45.2">
-                                    <path
-                                      d="M37.04-25.04q.16,0,.28.44a3.807,3.807,0,0,1,.12,1,4.28,4.28,0,0,1-.12,1.04q-.12.48-.28.48h-6L28.72-9.2h5.52q.16,0,.28.48a4.281,4.281,0,0,1,.12,1.04,4.28,4.28,0,0,1-.12,1.04q-.12.48-.28.48H28.16L26,6.24q0,.24-.8.24a5.26,5.26,0,0,1-1.28-.16q-.64-.16-.56-.32L25.52-6.16H13.2L11.04,6.24q0,.24-.8.24a5.26,5.26,0,0,1-1.28-.16Q8.32,6.16,8.4,6L10.56-6.16H5.04q-.16,0-.28-.52a4.788,4.788,0,0,1-.12-1.08,3.807,3.807,0,0,1,.12-1q.12-.44.2-.44h6.16l2.24-12.88H7.84q-.16,0-.28-.52a4.788,4.788,0,0,1-.12-1.08,5.136,5.136,0,0,1,.08-.92q.08-.44.24-.44h6.16l2.4-13.52q0-.16.56-.16a5.089,5.089,0,0,1,1.36.2q.72.2.64.44L16.56-25.04H28.88l2.4-13.52q0-.16.56-.16a5.089,5.089,0,0,1,1.36.2q.72.2.64.44L31.52-25.04ZM26.08-9.2l2.24-12.88H16.08L13.76-9.2Z"
-                                      transform="translate(-4.64 38.72)" fill="currentColor" />
-                                  </svg>
-                                  <span class="qodef-hashtag-text">taylorsuite</span>
-                                </p>
+                                <h3>or visit our store</h3>
+                                <div class="anchor-tag">
+                                  <a class="red-btn">Contact Now</a>
+                                <a class="red-btn">Visit Now</a>
+                                </div>
+                                
                               </div>
                                 <img src="./wp-content/uploads/2021/11/TS Entrance.jpeg">
+                              </div>
+                              <!-- <div class="qodef-title-content-holder first-cont">
+                                <div style="padding:2em;">
+                                <h1 class="qodef-m-title" data-splitting>
+                                  Find us on social media
+                                </h1>
+                              </div>
+                                <div class="social">
+                                  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Czyj1U8vk4y/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/Czyj1U8vk4y/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/Czyj1U8vk4y/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Taylor Suite (@taylorsuiteofficial)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+                               
+                                </div>
+                              </div> -->
+                              <div>
+                                
                               </div>
                               <div id="sb_instagram" class="sbi sbi_mob_col_1 sbi_tab_col_2 sbi_col_2 sbi_width_resp"
                                 style="width: 100%" data-feedid="sbi_17841450164627849#3" data-res="auto" data-cols="2"
@@ -3400,6 +3362,46 @@
                     </div>
                   </div>
                 </section>
+                <div id="qodef-page-outer">
+                  <div class="suite-blog">
+                    <div class="cards">
+                      <img src="../wp-content/uploads/2021/10/IMG_0236 1.png"width="500px"/>
+                      <h3>
+                        The suite!
+                      </h3>
+                      <p>
+                        It's an overwhelming pursuit of hapiness with an outstanding suite..
+                      </p>
+                    </div>
+                    <div class="cards">
+                      <img src="../wp-content/uploads/2021/10/IMG_0236 1.png"width="500px"/>
+                      <h3>
+                        The suite!
+                      </h3>
+                      <p>
+                        It's an overwhelming pursuit of hapiness with an outstanding suite..
+                      </p>
+                    </div>
+                    <div class="cards">
+                      <img src="../wp-content/uploads/2021/10/IMG_0236 1.png"width="500px"/>
+                      <h3>
+                        The suite!
+                      </h3>
+                      <p>
+                        It's an overwhelming pursuit of hapiness with an outstanding suite..
+                      </p>
+                    </div>
+                    <div class="cards">
+                      <img src="../wp-content/uploads/2021/10/IMG_0236 1.png"width="500px"/>
+                      <h3>
+                        The suite!
+                      </h3>
+                      <p>
+                        It's an overwhelming pursuit of hapiness with an outstanding suite..
+                      </p>
+                    </div>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -3448,14 +3450,19 @@
 <a href="https://maps.app.goo.gl/YwWxyhPd9pET7otF6?g_st=ic" style="color: rgb(190, 164, 14);"> Get location</a>
 
                           </p>
-                          <span class="wpcf7-form-control-wrap" data-name="your-email"><input type="email"
+                          <p class="qodef-newsletter-intro-text">
+                            Address - New No: 3, Old No:2, 5th St, Tansi Nagar, Velachery, Chennai, Tamil Nadu 600042</br>Contact no: <a itemprop="url" href="tel:7305973732" target="_self">7305973732</a></br>
+  <a href="https://maps.app.goo.gl/YwWxyhPd9pET7otF6?g_st=ic" style="color: rgb(190, 164, 14);"> Get location</a>
+  
+                            </p>
+                          <!-- <span class="wpcf7-form-control-wrap" data-name="your-email"><input type="email"
                               name="your-email" value="" size="40"
                               class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                               aria-required="true" aria-invalid="false" placeholder="Your Email" /></span>
                           <button type="submit"
                             class="wpcf7-form-control wpcf7-submit qodef-button qodef-size--normal qodef-layout--textual qodef-m">
                             <span class="qodef-m-text">Submit</span>
-                          </button>
+                          </button> -->
                         </div>
                         <div class="wpcf7-response-output" aria-hidden="true"></div>
                       </form>
@@ -3465,18 +3472,14 @@
               </div>
               <div class="qodef-grid-item">
                 <div id="nav_menu-2" class="widget widget_nav_menu" data-area="qodef-footer-top-area-column-3">
-                  <div class="menu-footer-column-3-container">
-                    <ul id="menu-footer-column-3" class="menu">
-                      <li id="menu-item-757"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-757">
-                        <a href="about-us/index.html">About Us</a>
-                      </li>
-                      <li id="menu-item-758"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-758">
-                        <a href="/our-collections/">Collections</a>
-                      </li>
-                      
-                    </ul>
+                  <div class="menu-footer-column-3-container footer-navbar">
+                        <a href="#">Home</a> 
+                      <a href="about-us/index.html">Heritage</a>
+                      <a href="/spring-wedding/index.html">Fabrics</a>
+                      <a href="/portfolio-item/craftmanship/index.html">Craftmanship</a>
+                      <a href="/wedding-blog/index.html">Blogs</a>
+                    <a href="./appointments/index.html">Contact</a>
+                  
                   </div>
                 </div>
               </div>

@@ -113,5 +113,26 @@
         flex-wrap: wrap;
         justify-content: center;
         margin:2em 1em;
+        
       }
+      }
+      .fabrics-inner{
+        display:flex;gap:1em;justify-content: space-around;align-items: center;
+      }
+      @media only screen and (max-width: 600px) {
+        .fabrics-inner{
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+      .fabrics-row{
+        margin:1em;
+      }
+      
+      .footer-navbar{
+        display:flex;
+        flex-direction: column;
+      }
+      .footer-navbar a{
+        margin:0.5em;
       }

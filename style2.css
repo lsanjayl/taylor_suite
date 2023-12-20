@@ -103,9 +103,9 @@
       .suite-blog{
         display:flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
-        margin:2em;
+        /* margin:2em; */
         
       }
       .cards{
@@ -131,11 +131,11 @@
       }
       }
       .blog-cont h2{
-        padding-left: 2.3em;
+        font-size: 50px;
+        margin-bottom: 30px;
       }
       .blog-cont{
-        margin: 2em;
-        padding:1em;
+        margin: 5em 0em 5em 0em;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -149,10 +149,13 @@
           align-items: center;
         }
        .blog-cont h2{
-          padding-left: 0.7em;
+          padding-left: 0.2em;
         }
         .blog-cont{
-          margin:0em;
+          margin:5em 0em 5em 0em;
+        }
+        .card{
+            margin-bottom: 2em;
         }
       }
       .fabrics-row{
@@ -172,7 +175,7 @@
         color: rgb(27, 35, 99);
       }
       .card{
-        margin:1em;
+        margin-bottom:3em;
       }
       .card h3{
         margin:0.3em 0em 0em 0em;
@@ -231,4 +234,7 @@
         .contact-title{
             padding:0.5em 0em 0.5em 0em;
           }
+      }
+      .social-title{
+        font-size: 105px;
       }

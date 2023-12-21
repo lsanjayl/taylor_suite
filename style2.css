@@ -195,6 +195,9 @@
         width:290px;
       }
       @media only screen and (max-width: 600px) {
+        .social-icons{
+          margin: 1em;
+        }
         .social-main{
           display:flex;
           flex-direction: column;

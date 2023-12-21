@@ -26,6 +26,7 @@
     flex-direction: column;
 }
 @media only screen and (max-width: 600px) {
+
     .first-cont{
         flex-direction: column;
         margin-bottom: 118px;
